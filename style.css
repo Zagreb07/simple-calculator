@@ -1,0 +1,42 @@
+.ID{
+    width:100%;
+    text-align: center;
+    color:aqua;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;  
+    border-style:solid;
+    height:560px;
+    width:290px;
+    background-color: #292e37;
+    border-radius: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+}
+.containerBtn{
+    height:320px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.display{
+    height: 210px;
+    width: 100%;
+}
+.operator{
+    background-color: #c45adc;
+}
+button{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    flex: 1 0 20%; 
+    margin: 5px; 
+    padding: 10px; 
+    background-color: #2f3747; 
+    border: none; 
+    border-radius: 5px; 
+}
