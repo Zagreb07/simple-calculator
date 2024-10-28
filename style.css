@@ -22,7 +22,16 @@
     display:flex;
     flex-wrap:wrap;
 }
+.header{
+    display: flex;
+}
 .display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:white;
+    font-size: x-large;
+    font-weight: bold;
     height: 210px;
     width: 100%;
 }
